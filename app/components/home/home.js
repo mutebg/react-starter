@@ -7,7 +7,7 @@ export default class Home extends React.Component {
     super(props);
     this.state = {
         count: 0
-    }
+    };
 
     this.handleOnClick = this.handleOnClick.bind(this);
   }

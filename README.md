@@ -1,7 +1,9 @@
 # REACT STARTER KIT
-- webpack
-- es6/7
+- WebPack
+- ES2015/16
 - Enzyme + Jasmine as test suite
+- ESlint
+
 
 **Install**  
 `npm install`
