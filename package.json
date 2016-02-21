@@ -52,7 +52,8 @@
     "karma-webpack": "^1.7.0",
     "mocha": "^2.4.5",
     "phantomjs-prebuilt": "^2.1.4",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "webpack-merge": "^0.7.0"
   },
   "dependencies": {
     "react": "^0.14.5",
