@@ -24,7 +24,7 @@ single run with phantomjs
 - redux / flux
 - immutablejs
 - components folder organization
-- scss folder organization ( also add postcss ? )
+- scss folder organization ( also add postcss / autoprefixer )
 - staging configuration ( production / development )
 - tools, debuging, linting
 - assets (images/icons/svg)
@@ -39,7 +39,7 @@ single run with phantomjs
 
 ##### DOCS:
 ###### How to organize files:
-- each components has own folder
+- each component has own folder
     - each folder contain js, scss and test file related to component
     - scss file contain only style related to component
 - actions
@@ -62,3 +62,10 @@ single run with phantomjs
     - Jasmine http://jasmine.github.io/2.4/introduction.html
     - Karma https://github.com/karma-runner/karma
 - Place test file in component directory with suffix _test.js
+
+###### Utils:
+- ajax library:
+    - native fetch api with polyfill https://github.com/github/fetch
+    - superagent https://github.com/visionmedia/superagent
+    - request https://github.com/request/request
+    - axios https://github.com/mzabriskie/axios
