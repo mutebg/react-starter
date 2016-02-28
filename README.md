@@ -3,7 +3,7 @@
 - ES2015/16
 - Enzyme + Jasmine as test suite
 - ESlint
-
+- Redux
 
 **Install**  
 `npm install`
@@ -26,8 +26,8 @@ single run with phantomjs
 - components folder organization
 - scss folder organization ( also add postcss / autoprefixer )
 - staging configuration ( production / development )
-- tools, debuging, linting
 - assets (images/icons/svg)
+- redux devtool
 - server side rendering
 - service worker ( offline use )
 - run in web worker

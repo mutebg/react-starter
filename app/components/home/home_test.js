@@ -10,7 +10,7 @@ describe("Home Component", () => {
 
   it("simulate click and count", () => {
       const wrapper = shallow(<Home />);
-      wrapper.find('div').simulate('click');
+      wrapper.find('button').simulate('click');
       expect( wrapper.text() ).toEqual('Counter: 1');
   });
 
