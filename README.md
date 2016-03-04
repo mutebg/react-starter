@@ -1,7 +1,7 @@
 # REACT STARTER KIT
 - WebPack
 - ES2015/16
-- Enzyme + Jasmine as test suite
+- Enzyme + Jasmine
 - ESlint
 - Redux
 
@@ -21,7 +21,6 @@ single run with phantomjs
 
 
 #### TODO:
-- redux / flux
 - immutablejs
 - components folder organization
 - scss folder organization ( also add postcss / autoprefixer )
@@ -59,6 +58,7 @@ single run with phantomjs
 ###### How to write tests:
 - Test libs:
     - Enzyme https://github.com/airbnb/enzyme/
+        - quick intro https://medium.com/airbnb-engineering/enzyme-javascript-testing-utilities-for-react-a417e5e5090f#.gkysbhykb
     - Jasmine http://jasmine.github.io/2.4/introduction.html
     - Karma https://github.com/karma-runner/karma
 - Place test file in component directory with suffix _test.js

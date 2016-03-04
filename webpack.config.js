@@ -79,7 +79,9 @@ if (TARGET === 'start' || !TARGET) {
             port: config.SERVER_PORT
         },
         plugins: [
-            new webpack.HotModuleReplacementPlugin()
+            new webpack.HotModuleReplacementPlugin(),
+            new webpack.NoErrorsPlugin(),
+            new webpack.DefinePlugin({ __DEV__: true })
         ]
     });
 }

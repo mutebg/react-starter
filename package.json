@@ -7,7 +7,8 @@
     "build": "webpack",
     "start": "webpack-dev-server",
     "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
-    "test:watch": "./node_modules/karma/bin/karma start"
+    "test:watch": "./node_modules/karma/bin/karma start",
+    "lint": "eslint app"
   },
   "author": "",
   "license": "ISC",

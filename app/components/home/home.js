@@ -16,7 +16,7 @@ class Home extends React.Component {
 
   handleSubmit() {
       this.props.addItem(this.refs.item.value);
-      this.refs.item.value = "";
+      this.refs.item.value = '';
   }
 
   render() {

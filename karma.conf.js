@@ -30,8 +30,16 @@ module.exports = function(config) {
             test: /\.json$/,
             loader: 'json',
           },
+        ],
+        noParse: [
+            /node_modules\/sinon\//,
         ]
       },
+      resolve: {
+        alias: {
+            'sinon': 'sinon/pkg/sinon'
+        }
+    },
       externals: {
         'react/lib/ExecutionEnvironment': true,
         'react/lib/ReactContext': true

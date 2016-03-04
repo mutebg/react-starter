@@ -6,7 +6,8 @@ class ListItem extends React.Component {
     }
 
     render() {
-        return <li>{this.props.name}
+        return <li>
+            <span>{this.props.name}</span>
             <button onClick={this.props.onRemove}>remove</button>
         </li>;
     }
