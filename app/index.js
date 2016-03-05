@@ -5,9 +5,10 @@ import { Provider } from 'react-redux';
 import Routes from './routes';
 import Store from './store';
 
-var routes = (
+const onUpdate = () => window.scrollTo(0, 0);
+const routes = (
     <Provider store={Store}>
-        <Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>{Routes}</Router>
+        <Router history={browserHistory} onUpdate={onUpdate}>{Routes}</Router>
     </Provider>
 );
 
